@@ -1,0 +1,18 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass variables.
+// -----------------------------------------------------------------------------
+
+$font-family-base:'Roboto', sans-serif;
+
+$headings-font-family: 'Rajdhani', sans-serif;
+
+
+//bootstrap overrides
+$container-max-widths: (
+  sm: 1097px,
+  md: 1098px,
+  lg: 1099px,
+  xl: 1100px
+) !default;
+
+$headings-font-weight: 700;

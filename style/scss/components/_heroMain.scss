@@ -1,0 +1,52 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the button component.
+// -----------------------------------------------------------------------------
+.heroMain {
+	background:green;
+	padding-top:$spacer*2;
+	padding-bottom:$spacer*2;
+}
+
+.heroMain-inner {
+	padding-left:$spacer;
+	padding-right:$spacer;
+    max-width: 1100px;
+    margin-right: auto;
+    margin-left: auto;
+    @include media-breakpoint-up(md) {
+        display: flex;
+        align-items:center;
+    }
+}
+.heroMain-copy {
+	@extend %noPhatBottom;
+	flex:0 0 50%;
+	color:$colorWhite;
+	font-size:14px;
+}
+.heromain-heading {
+	line-height:1;
+	margin-bottom:5px;
+}
+.heroMain-lede {
+	background:$colorBrandGoldDark;
+	font-size:35px;
+	//color:$colorWhite;
+	padding:$spacer/4 $spacer;
+	//padding-left:$spacer;
+	margin-bottom:$spacer/2;
+	display:inline-block;
+	// &:after {
+	// 	content: "\A";
+	// 	white-space: pre;
+	// }
+}
+.heroMain-subHeading {
+	color:$colorBrandGoldDark;
+	font-size:24px;
+}
+.heroMain-form {
+	background:$colorWhite;
+	flex:0 0 50%;
+}
+
