@@ -1,0 +1,36 @@
+/* Figure
+========================================================================== */
+
+.logoBar {
+    display:none;
+    @include media-breakpoint-up(lg) {
+        list-style:none;
+        padding:0;
+        display:flex;
+        align-items:center;
+        margin:0;
+        background: linear-gradient(to bottom, rgba(253,253,253,1) 0%,rgba(188,187,186,1) 100%);
+        max-width:100vw;
+        overflow:hidden;
+    }
+}
+.logoBar-item {
+    flex:1 1 auto;
+    padding:$spacer*.75 $spacer/4;
+    text-align:center;
+    min-width:0;
+}
+.logoBar-logo {
+    max-height:28px;
+    width:auto;
+    max-width:75px;
+    filter: grayscale(1);
+    @include transition(all 0.2s ease-in-out);
+}
+.logoBar-link {
+    &:hover {
+        .logoBar-logo {
+            filter: grayscale(0);
+        }
+    }
+}

@@ -1,0 +1,34 @@
+/* Figure
+========================================================================== */
+
+.slabList {
+    list-style:none;
+    padding:0;
+    background:$colorWhite;
+    font-family:$headings-font-family;
+    color:$colorBrandBlueDark;
+    font-weight:bold;
+    font-size:15px;
+    line-height:1.2;
+    @include media-breakpoint-up(md) {
+        display:flex;
+        flex-wrap:wrap;
+    }
+}
+.slabList-item {
+    display:flex;
+    flex:0 0 50%;
+    padding:$spacer*1.1 $spacer;
+    border-bottom:1px solid $colorGrayLight;
+    align-items:center;
+    &:nth-child(even) {
+       border-left:1px solid $colorGrayLight; 
+    }
+}
+.slabList-media {
+    flex:0 0 50px;
+    text-align:center;
+}
+.slabList-copy {
+    padding-left: $spacer/2;
+}

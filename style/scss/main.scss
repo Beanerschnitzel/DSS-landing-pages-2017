@@ -3,7 +3,6 @@
 // 1. Configuration and helpers
 @import
   'abstracts/colors',
-  'abstracts/fills',
   'abstracts/noPhatBottom',
   'abstracts/variables',
   'abstracts/functions',
@@ -30,6 +29,9 @@
 
 // 5. Components
 @import
+  'components/logoBar',
+  'components/slabList',
+  'components/blockHeading',
   'components/figure',
   'components/heroMain';
 

@@ -26,6 +26,7 @@ $colorBrandGold: #ad9540 !default;
 $colorBrandGoldDark: #cbb554 !default;
 $colorBrandGoldLight: #f9de62 !default;
 $colorBrandTan: #ffe5c6 !default;
+$colorBrandBlueDark: #22365f !default;
 /*
  * Monochrome colors
  */
@@ -38,7 +39,7 @@ $colorGrayLighter: mix(white, $colorGray, 80%) !default;
 $colorGrayLightest: mix(white, $colorGray, 90%) !default;
 $colorGrayDark: mix(black, $colorGray, 25%) !default;
 $colorGrayDarker: mix(black, $colorGray, 35%) !default;
-$colorGrayDarkest: mix(black, $colorGray, 55%) !default;
+$colorGrayDarkest: #292929 !default;
 
 /*
  * Text elements

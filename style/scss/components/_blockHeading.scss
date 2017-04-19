@@ -1,0 +1,39 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the button component.
+// -----------------------------------------------------------------------------
+.blockHeading {
+    color: $colorWhite;
+    font-size: 22px;
+    padding: $spacer*.75 $spacer*1.5;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    &:before,
+    &:after {
+        content: '';
+        position: absolute;
+        z-index: -1;
+    }
+    &:before {
+        height: 26px;
+        width: 110%;
+        right: 12px;
+        transform: skew(45deg);
+        top: 0;
+    }
+    &:after {
+        height: 100%;
+        width: 100%;
+        right: 0;
+        top: 25px;
+    }
+}
+
+.blockHeading--blue {
+    &:before {
+        background: linear-gradient(to bottom, rgba(58, 82, 116, 1) 0%, rgba(43, 65, 103, 1) 100%);
+    }
+    &:after {
+        background: linear-gradient(to bottom, rgba(42, 64, 102, 1) 0%, rgba(30, 50, 92, 1) 100%);
+    }
+}

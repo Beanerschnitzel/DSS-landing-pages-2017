@@ -2,3 +2,93 @@
 // This file contains CSS helper classes.
 // -----------------------------------------------------------------------------
 
+.boldWeight {
+	font-weight:700;
+}
+.mediumWeight {
+	font-weight:400;
+}
+.colorGray {
+    color: $colorGray !important;
+}
+.colorGrayLight {
+    color: $colorGrayLight !important;
+}
+.colorGrayLighter {
+    color: $colorGrayLighter !important;
+}
+.colorGrayLightest {
+    color: $colorGrayLightest !important;
+}
+.colorGrayDark {
+    color: $colorGrayDark !important;
+}
+.colorGrayDarker {
+    color: $colorGrayDarker !important;
+}
+.colorGrayDarkest {
+    color: $colorGrayDarkest !important;
+}
+.colorBlack {
+    color: $colorBlack !important;
+}
+.colorWhite {
+    color: $colorWhite !important;
+}
+//brand colors
+.colorBrandGold {
+    color: $colorBrandGold !important;
+}
+.colorBrandGoldDark {
+    color: $colorBrandGoldDark !important;
+}
+.colorBrandGoldLight {
+    color: $colorBrandGoldLight !important;
+}
+.colorBrandTan {
+    color: $colorBrandTan !important;
+}
+.colorBrandBlueDark {
+    color: $colorBrandBlueDark !important;
+}
+.fillColorGray {
+    background-color: $colorGray !important;
+}
+.fillColorGrayLight {
+    background-color: $colorGrayLight !important;
+}
+.fillColorGrayLighter {
+    background-color: $colorGrayLighter !important;
+}
+.fillColorGrayLightest {
+    background-color: $colorGrayLightest !important;
+}
+.fillColorGrayDark {
+    background-color: $colorGrayDark !important;
+}
+.fillColorGrayDarker {
+    background-color: $colorGrayDarker !important;
+}
+.fillColorGrayDarkest {
+    background-color: $colorGrayDarkest !important;
+}
+.fillColorBlack {
+    background-color: $colorBlack !important;
+}
+.fillColorWhite {
+    background-color: $colorWhite !important;
+}
+//brand colors
+.fillColorBrandGold {
+    background-color: $colorBrandGold !important;
+}
+.fillColorBrandGoldLight {
+    background-color: $colorBrandGoldLight !important;
+}
+.fillColorBrandGoldDark {
+    background-color: $colorBrandGoldDark !important;
+}
+.fillColorBrandTan {
+    background-color: $colorBrandTan !important;
+}
+
